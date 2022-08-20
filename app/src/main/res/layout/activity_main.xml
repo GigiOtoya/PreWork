@@ -8,7 +8,8 @@
 
     <TextView
         android:id="@+id/introTextView"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/text_color"
+        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/Luigi_intro"
@@ -17,6 +18,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/soccerImageView" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchCompat01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/theme_toggle"
+        android:textColor="@color/text_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:thumbTint="@color/switch_color" />
 
     <ImageView
         android:id="@+id/soccerImageView"
