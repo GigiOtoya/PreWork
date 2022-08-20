@@ -33,7 +33,6 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
 It took me a few hours learning how to implement a dark mode for my application. After reading documentation and other notes online, I was able to do so.
 It was a great learning experience.
 
